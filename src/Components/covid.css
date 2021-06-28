@@ -1,0 +1,130 @@
+
+/* heading 1 animation */
+    @keyframes example {
+                        from {background-color: red;}
+                        to {background-color: rgb(46, 230, 22);}
+                        } 
+    h1 {
+        color: white;
+        text-align: center ;
+        animation-name: example;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-delay: 0.0001 s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+/*heading 2 animation */
+    @keyframes blinkingText{
+                            0%{     color: rgb(218, 206, 206); }
+                            49%{    color: rgb(235, 226, 226); }
+                            60%{    color: transparent; }
+                            99%{    color:transparent;  }
+                            100%{   color: rgb(206, 195, 195);  }
+                            }       
+
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 35px;;
+        animation:blinkingText 1.1s infinite;
+       }
+
+    h3{
+        color: white;
+        text-align: center;
+        margin: 0 auto ;
+        margin-bottom: 25px;
+        font-size: 25px;;   
+       }
+
+    body{
+        background-color: black;
+        }
+
+    span,strong{
+         color: white;
+        font-weight: lighter;
+        }
+
+    .date_cs{
+         color:white;
+        font-size: 18px;
+        font-weight: bold;
+        }
+
+/* For icons*/
+    .date_icon{
+        color:rgb(46, 230, 22);
+        transform: scale(1.9);
+        }
+
+    .confirm_icon{
+        color: rgb(252, 167, 10);
+        transform: scale(1.5);
+        }
+
+    .recover_icon{
+        color: rgb(11, 194, 11);
+        transform: scale(1.5);
+        }
+
+    .death_icon{
+        color: rgb(240, 32, 32);
+        transform: scale(1.6);
+        }
+
+/*For divs*/
+    .row{
+        margin-top:1px;
+        justify-content: left;
+        padding: 30px;   
+        }
+
+    .main{
+        border: 1px solid red;
+        outline: #34c707 solid 2px;
+        width: 350px;
+        height: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        text-align: center;
+        background-color: rgb(71, 53, 53);
+        margin-top: 55px;
+        transition: transform .10s;         
+      }
+   
+    .main:hover{ transform: scale(0.8); }
+    .main_total{
+               color:white;
+               font-size: 18px;
+               font-weight: bold;
+               top:120px;
+               left: 100px;
+               text-decoration: underline 2px;
+               text-decoration-color: rgb(16, 177, 24);
+               text-underline-position: under;
+               text-decoration-line: underline;
+               text-underline-offset: 1px;                     
+                };
+
+
+    @media (max-width: 800px)
+    {
+        .main{
+             width:23px;
+            height: 50px;
+            margin-right: 10px;
+            float: none;
+            left: 80px;
+            margin-top: 1x;
+            }
+
+        .main_total{
+            font-weight: bold;
+            font-size: 75px;
+            }
+    }   
