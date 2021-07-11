@@ -57,27 +57,39 @@
          color:white;
         font-size: 17px;
         font-weight: bold;
+        padding-left: 20px;
         }
+        
 
 /* For icons*/
     .date_icon{
-        color:rgb(46, 230, 22);
-        transform: scale(2.0);
+        color:rgb(250, 125, 9);
+        padding-right:9px;
+        transform: scale(1.5);
         }
+
+        .time_icon{
+            color:rgb(250, 125, 9);
+           padding-right:7px;
+            transform: scale(1.4);
+            }
 
     .confirm_icon{
         color: rgb(252, 167, 10);
         transform: scale(1.5);
+        padding-right: 9px;
         }
 
     .recover_icon{
         color: rgb(11, 194, 11);
         transform: scale(1.5);
+        padding-right: 9px;
         }
 
     .death_icon{
         color: rgb(240, 32, 32);
         transform: scale(1.4);
+        padding-right: 13px;
         }
 
 /*For divs*/
